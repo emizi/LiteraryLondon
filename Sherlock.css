@@ -38,7 +38,15 @@ abbr {
 	border-bottom: none;
 	}
 
-.page-wrapper { 
+
+/* specific divs */
+.ticker{
+	font-size: 80px;
+color:white;
+
+}
+
+.page-wrapper
 	background: url(zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
@@ -149,33 +157,57 @@ footer a:link, footer a:visited {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-
-
-.sidebar ul {
-	margin: 0;
+.center {
+    margin: auto;
+    width: 60%;
+    border: 24px solid #73AD21;
+    padding: 100px;
+}
+.item{    
+	margin: auto;
+    width: 60%;
+    padding: 50px;
+font-style: italic;
+font-size: 20px;
+font-family: georgia;
+}
+.signupform{    
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+font-style: italic;
+font-size: 20px;
+font-family: georgia;
+}
+.aboutus{    
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+font-style: italic;
+font-size: 34px;
+font-family: georgia;
+}
+.footer{
+	font: 100% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	margin: 0; 
 	padding: 0;
 	}
-.sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
+}
+.intro{
+	{ 
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+font-family: georgia;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	}
-.sidebar li a:link {
-	color: #988F5E;
 	}
-.sidebar li a:visited {
-	color: #B3AE94;
+	
 	}
-
-
-.extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}
+}
