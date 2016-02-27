@@ -1,5 +1,5 @@
 html {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	}
 body { 
@@ -63,7 +63,7 @@ abbr {
 	}
 .intro{
 	{ 
-	margin-top: 10px;
+	margin: 80px;
 	display: block;
 	width: 219px;
 	height: 87px;
@@ -72,4 +72,5 @@ font-family: georgia;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+background-color:#B38B6D; 
 }
